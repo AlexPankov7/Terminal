@@ -24,7 +24,7 @@ Linux terminal (GitBash) commands
 
 15) Найти файл по имени  -   find / -name main1.json
 
-16)Просмотреть содержимое в реальном времени (команда grep) 
+16)Просмотреть содержимое в реальном времени (команда grep)  -   tail -f index.txt
 
 	cat index.txt - отобразит текст в файле index.txt
 	grep 1. Name index.txt - найдет текст - > 1. Name (если он есть в файле) 
