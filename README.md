@@ -23,7 +23,7 @@
 
 15) Найти файл по имени  -   <b>find / -name main1.json</b>
 
-16) Просмотреть содержимое в реальном времени (команда grep) 
+16) Просмотреть содержимое в реальном времени (команда grep)   -   <b>tail -f index.txt</b>
 
 <b>cat index.txt</b> - отобразит текст в файле index.txt
 <b>grep 1. Name index.txt</b> - найдет текст - > 1. Name (если он есть в файле) <br>
@@ -32,12 +32,12 @@
 1. Name<br>
 6. NAME
 
-<b>grep -v 1 index.txt</b>	-v покажет все строки где НЕТ 1
-<br>2. Age
-<br>3. Email
-<br>4. Ciudad                                                                
-<br>5. Pais
-<br>6. NAME<br>
+<b>grep -v 1 index.txt</b>	-v покажет все строки где НЕТ "1"<br>
+2. Age<br>
+3. Email<br>
+4. Ciudad<br>                                                               
+5. Pais<br>
+6. NAME<br>
 Посчитать количество строк   -  <b>grep -c Email index.txt</b>
 <b>grep -c name index.txt</b><br>
 0  - найдено 0 потому что тут не учитывается зависимость от регистра!<br>
