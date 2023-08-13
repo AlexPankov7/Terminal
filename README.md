@@ -23,7 +23,7 @@
 
 15) Найти файл по имени  -   <b>find / -name main1.json</b>
 
-16) Просмотреть содержимое в реальном времени (команда grep)   -   tail -f index.txt
+16) Просмотреть содержимое в реальном времени (команда grep)   -   <b>tail -f index.txt</b>
 
 <b>cat index.txt</b> - отобразит текст в файле index.txt
 <b>grep 1. Name index.txt</b> - найдет текст - > 1. Name (если он есть в файле) <br>
