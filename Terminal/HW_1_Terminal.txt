@@ -33,7 +33,7 @@ Linux terminal (GitBash) commands
 	cat index.txt - отобразит текст в файле index.txt
 	grep 1. Name index.txt - найдет текст - > 1. Name (если он есть в файле) 
 	Отобразит текст всей строки в которой есть слово “Name”
-	grep -i 1. Name index.txt -   -i  откл. чувствительность к регистру при поиске файлов.
+	grep -i 1. Name index.txt -   -i  откл. чувствительность к регистру(Case in/sensitive) при поиске файлов.
 	grep -i name index.txt
 		1. Name
 		6. NAME
