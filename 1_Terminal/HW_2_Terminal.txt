@@ -1,7 +1,7 @@
 	Termial. HW_2
 
- 1. Сделать папку dir_1   - mkdir dir_1
- 2. Зайти в папку dir_1   - cd dir_1
+ 1. Сделать папку dir_1   - ### mkdir dir_1
+ 2. Зайти в папку dir_1   - ### cd dir_1
  3. Создать папку inner_dir_1   - mkdir  inner_dir_1
  4. Посмотреть где ты находишься   -  pwd
  5. Находясь в папке dir_1 создать пустой текстовый файл tf_1.txt   -  cat > tf_1.txt
