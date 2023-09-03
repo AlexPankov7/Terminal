@@ -13,6 +13,7 @@ GIT Homework 1
 
 Файл со сценарием и ссылку на свой гит хаб отправляйте менторам на проверку.
 
+
 JSON
  4. Создать внешний репозиторий c названием JSON.
 	Идем в GitHub и создаём репо JSON
@@ -58,30 +59,139 @@ JSON
 	touch preferences.json
 
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+	cat > preferences.json
+	{
+		"favorite film": "Million Dollar Baby",
+		"favorite series": "Game of Thrones",
+		"favorite food": "seafood",
+		"favorite time of year": "summer",
+		"I would like to visit": "Finland"
+	}
+
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+		{
+		"Stady skills": 
+			[
+			"GIT",
+			"Postman",
+			"SQL",
+			"JS",
+			"Testing" 
+			]
+		}
  15. Отправить сразу 2 файла на внешний репозиторий.
+	git add preferences.json skills.json	или  git add .
+	git commit -m "added 2 files"
+	git push https://github.com/AlexPankov7/JSON.git
+
  16. На веб интерфейсе создать файл bug_report.json.
+	-Заходим в GitHub
+	-Идём в репозиторий JSON
+	-Нажимаем кнопку Add new file
+	-Создаём файл с именем bug_report.json
+	
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	-Нажать кнопку Commit changes
+	-Пишем название коммита first commit file bug_report.json
+	
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+	{
+		"ID": "777",
+		"Summary": "A brief description of the problem that clearly indicates the 			    cause and type of the erroneous situation",
+		"Project": "Web App",
+		"Version": "1.77.0",
+		"Priority": "High",
+		"Severity": "Critical",
+		"Author": "Aleksei Pankov",
+		"Steps to Reproduce": [
+					"1. Go to the web site https://www.my_little_site.fi"
+					"2. Push the button 'LogIn' "
+						],
+		"Result": "Push button 'LogIn' does not redirect to the login page.",
+		"Expected Result": "Push on the 'LogIn' button redirects to the login page."	
+	}
+
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	Делаем коммит (пишем название коммита)
+
  20. Синхронизировать внешний и локальный репозиторий JSON
+	git pull
 
 
 XML
  21. Создать внешний репозиторий c названием XML.
+
  22. Клонировать репозиторий XML на локальный компьютер.
+	git clone https://github.com/AlexPankov7/XML.git
+
  23. Внутри локального XML создать файл “new.xml”.
+	cd XML
+	touch new.xml
  24. Добавить файл под гит.
+	git add new.xml
+
  25. Закоммитить файл.
+	git commit -m "Firsh commit new.xml"
+
  26. Отправить файл на внешний GitHub репозиторий.
+	git push https://github.com/AlexPankov7/XML.git
+
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+<info>
+	<title>My_Info</title>
+	<body>
+		<name>Aleksei</name>
+		<age>37</age>
+		<pets>Molly</pets>
+		<salary>777</salary>
+	</body>
+</info>
+
  28. Отправить изменения на внешний репозиторий.
+	git add new.xml
+	git commit -m "my commit"
+	git push https://github.com/AlexPankov7/XML.git
+
  29. Создать файл preferences.xml
+	touch preferences.xml
+	
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+	cat > preferences.xml
+
+	<?xml version="1.0"?>
+<preferences>
+
+  	<Film>Million Dollar Baby</Film>
+  	<series>Game of Thrones</series>
+  	<food>seafood</food>
+  	<season>summer</season>
+  	<country>Finland</country>
+  
+</preferences>
+
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+	cat > sklls.xml
+
+	<?xml version="1.0"?>
+<body>
+   <text>
+1.      HTML;
+2.      CSS;
+3.      Postman;
+4.	GIT
+   </text>
+</body>
+
  32. Сделать коммит в одну строку.
+	git add .
+	git commit -am "Firsh commit in one line"
+
  33. Отправить сразу 2 файла на внешний репозиторий.
+	git push https://github.com/AlexPankov7/XML.git
+
  34. На веб интерфейсе создать файл bug_report.xml.
+	
+
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
