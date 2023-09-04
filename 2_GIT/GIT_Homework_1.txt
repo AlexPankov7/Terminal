@@ -120,7 +120,8 @@ JSON
 
 XML
  21. Создать внешний репозиторий c названием XML.
-
+	Идем в GitHub и создаём репо XML
+	
  22. Клонировать репозиторий XML на локальный компьютер.
 	git clone https://github.com/AlexPankov7/XML.git
 
@@ -190,9 +191,39 @@ XML
 	git push https://github.com/AlexPankov7/XML.git
 
  34. На веб интерфейсе создать файл bug_report.xml.
-	
+	- На веб GitHub идем в репо XML
+	- Нажимаем 'Add file'
+	- Нажимаем Create new file
+	- Называем файл bug_report.xml
 
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	-Жмём кнопку 'Commit changes'
+	
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+	<?xml version="1.0"?>
+	<Bug_report>
+ 		 <ID>777</ID>
+  		<Summary>User cannot clear the form with "Clear" button</Summary>
+  		<Steps_to_reproduce> 1.Go to the web site https://www.my_little_site.fi 2. Push 			the button 'LogIn'</Steps_to_reproduce>
+  		<Author>Aleksei Pankov</Author>
+	</Bug_report>
+	
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	Жмём 'Commit changes'
+
  38. Синхронизировать внешний и локальный репозиторий XML
+	git pull
+
+		remote: Enumerating objects: 7, done.
+		remote: Counting objects: 100% (7/7), done.
+		remote: Compressing objects: 100% (5/5), done.
+		remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+		Unpacking objects: 100% (6/6), 1.45 KiB | 23.00 KiB/s, done.
+		From https://github.com/AlexPankov7/XML
+   		e9a1d45..fbbd22e  main       -> origin/main
+		Updating 71fbf55..fbbd22e
+		Fast-forward
+ 		bug_report.xml | 8 ++++++++
+ 		1 file changed, 8 insertions(+)
+ 		create mode 100644 bug_report.xml
+
