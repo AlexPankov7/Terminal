@@ -97,7 +97,7 @@ JSON
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 	{
 		"ID": "777",
-		"Summary": "A brief description of the problem that clearly indicates the 			    cause and type of the erroneous situation",
+		"Summary": "A brief description of the problem that clearly indicates the cause and type of the erroneous situation",
 		"Project": "Web App",
 		"Version": "1.77.0",
 		"Priority": "High",
@@ -204,7 +204,7 @@ XML
 	<Bug_report>
  		 <ID>777</ID>
   		<Summary>User cannot clear the form with "Clear" button</Summary>
-  		<Steps_to_reproduce> 1.Go to the web site https://www.my_little_site.fi 2. Push 			the button 'LogIn'</Steps_to_reproduce>
+  		<Steps_to_reproduce> 1.Go to the web site https://www.my_little_site.fi 2. Push the button 'LogIn'</Steps_to_reproduce>
   		<Author>Aleksei Pankov</Author>
 	</Bug_report>
 	
