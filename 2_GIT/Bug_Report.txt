@@ -1,0 +1,8 @@
+ID:
+Title:
+Summary:
+Steps_to_reproduce:
+Expected result:
+Actual result:
+Author: Aleksei Pankov
+
