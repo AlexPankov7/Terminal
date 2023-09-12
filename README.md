@@ -4,4 +4,5 @@
 1. Terminal (Linux)
 2. Working with GIT
 3. Postman
-4. 
+4. SQL
+5. ....
