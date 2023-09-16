@@ -1,3 +1,5 @@
+## Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
 ### GIT Homework 1
 
 Для выполнения задания у вас должен быть установлен для Windows - GitBash.
