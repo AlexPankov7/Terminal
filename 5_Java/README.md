@@ -1,4 +1,4 @@
-<h1/>Про Java<h1>
+<h1/>Briefly about Java<h1>
 
 ##### Java technology is a combination of programming language, platform and various frameworks (software environment)
 ##### Java технология представляет собой сочетание языка программирования, платформы и различных фреймворков (программная среда)
