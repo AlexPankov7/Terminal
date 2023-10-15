@@ -1,7 +1,5 @@
 <h2/>Briefly about Java<h2>
 
-
-
 ##### The Java programming language is a strictly typed object-oriented programming language.
 ##### Язык программирования Java это строго типизированный объекто-ориентированный язык программирования.
 
