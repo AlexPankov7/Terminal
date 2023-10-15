@@ -1,7 +1,7 @@
-<h1/>Briefly about Java<h1>
+<h2/>Briefly about Java<h2>
 
-Java technology is a combination of programming language, platform and various frameworks (software environment)
-Java технология представляет собой сочетание языка программирования, платформы и различных фреймворков (программная среда)
+<p/>Java technology is a combination of programming language, platform and various frameworks (software environment)<p>
+<p/>Java технология представляет собой сочетание языка программирования, платформы и различных фреймворков (программная среда)<p>
 
 ##### The Java programming language is a strictly typed object-oriented programming language.
 ##### Язык программирования Java это строго типизированный объекто-ориентированный язык программирования.
