@@ -9,3 +9,8 @@
 **The Java platform** is a set of hardware and software for the development and execution of programs written in Java.<br/>
 **Java платформа** - это комплекс аппаратного и программного обеспечения для разработки и исполнения программ, написанных на языке Java.<br/>
 
+***JDK*** - **J**ava **D**evelopment **K**it (development tools package)
+
+***JRE*** - **J**ava **R**untime **E**nvironment (Java executive system. Used to organize the process of program execution)
+
+***JVM*** - **J**ava **V**irtual **M**achine (This is abstract computer that has its own set of instructions and a memory management system)
